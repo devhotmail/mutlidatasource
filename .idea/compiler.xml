@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="01-tulingvip-springboot-maven" />
+        <module name="01-tulingvip-springboot-maven02" />
+        <module name="01-tulingvip-springboot-qk02" />
+        <module name="01-tulingvip-springboot-quickstart" />
+        <module name="01-tulingvip-springboot-war" />
+        <module name="01-tulingvip-springboot-web" />
+        <module name="01-tulingvipspringbootmaven" />
+        <module name="01-tulingvipspringbootmaven02" />
+        <module name="02-redisoper-spring-boot-autoconfiguration" />
+        <module name="02-redisoper-springboot-starter" />
+        <module name="02-tulingvip-springboot-actuator" />
+        <module name="02-tulingvip-springboot-jdbc" />
+        <module name="02-tulingvip-springboot-mybatis" />
+        <module name="02-tulingvip-springboot-rabbitmq" />
+        <module name="02-tulingvip-springboot-redis" />
+        <module name="02-tulingvip-springboot-swagger2" />
+        <module name="redisoper-spring-boot-autoconfiguration" />
+        <module name="redisoper-springboot-starter" />
+        <module name="tulingvip-springboot-actuator" />
+        <module name="tulingvip-springboot-jdbc" />
+        <module name="tulingvip-springboot-maven" />
+        <module name="tulingvip-springboot-maven02" />
+        <module name="tulingvip-springboot-mybatis" />
+        <module name="tulingvip-springboot-qk02" />
+        <module name="tulingvip-springboot-quickstart" />
+        <module name="tulingvip-springboot-rabbitmq" />
+        <module name="tulingvip-springboot-redis" />
+        <module name="tulingvip-springboot-swagger2" />
+        <module name="tulingvip-springboot-war" />
+        <module name="tulingvip-springboot-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01-tulingvip-springboot-maven" target="1.8" />
+      <module name="01-tulingvip-springboot-maven02" target="1.8" />
+      <module name="01-tulingvip-springboot-qk02" target="1.8" />
+      <module name="01-tulingvip-springboot-quickstart" target="1.8" />
+      <module name="01-tulingvip-springboot-war" target="1.8" />
+      <module name="01-tulingvip-springboot-web" target="1.8" />
+      <module name="01-tulingvipspringbootmaven" target="1.8" />
+      <module name="01-tulingvipspringbootmaven02" target="1.8" />
+      <module name="02-redisoper-spring-boot-autoconfiguration" target="1.8" />
+      <module name="02-redisoper-springboot-starter" target="1.8" />
+      <module name="02-tulingvip-springboot-actuator" target="1.8" />
+      <module name="02-tulingvip-springboot-jdbc" target="1.8" />
+      <module name="02-tulingvip-springboot-mybatis" target="1.8" />
+      <module name="02-tulingvip-springboot-rabbitmq" target="1.8" />
+      <module name="02-tulingvip-springboot-redis" target="1.8" />
+      <module name="02-tulingvip-springboot-swagger2" target="1.8" />
+      <module name="redisoper-spring-boot-autoconfiguration" target="1.8" />
+      <module name="redisoper-springboot-starter" target="1.8" />
+      <module name="tulingvip-springboot" target="1.8" />
+      <module name="tulingvip-springboot-actuator" target="1.8" />
+      <module name="tulingvip-springboot-jdbc" target="1.8" />
+      <module name="tulingvip-springboot-maven" target="1.8" />
+      <module name="tulingvip-springboot-maven02" target="1.5" />
+      <module name="tulingvip-springboot-mybatis" target="1.8" />
+      <module name="tulingvip-springboot-qk02" target="1.8" />
+      <module name="tulingvip-springboot-quickstart" target="1.8" />
+      <module name="tulingvip-springboot-rabbitmq" target="1.8" />
+      <module name="tulingvip-springboot-redis" target="1.8" />
+      <module name="tulingvip-springboot-swagger2" target="1.8" />
+      <module name="tulingvip-springboot-war" target="1.5" />
+      <module name="tulingvip-springboot-web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

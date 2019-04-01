@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/01-tulingvip-springboot-war" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/01-tulingvip-springboot-qk02/pom.xml" />
+        <option value="$PROJECT_DIR$/01-tulingvip-springboot-quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/01-tulingvip-springboot-web/pom.xml" />
+        <option value="$PROJECT_DIR$/01-tulingvipspringbootmaven/pom.xml" />
+        <option value="$PROJECT_DIR$/01-tulingvip-springboot-war/pom.xml" />
+        <option value="$PROJECT_DIR$/01-tulingvipspringbootmaven02/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingvip-springboot-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/02-tulingvip-springboot-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/02-tulingvip-springboot-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/02-tulingvip-springboot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/02-tulingvip-springboot-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/02-tulingvip-springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingvip-springboot-swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/redisoper-spring-boot-autoconfiguration/pom.xml" />
+        <option value="$PROJECT_DIR$/02-tulingvip-springboot-swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/02-redisoper-springboot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/02-redisoper-spring-boot-autoconfiguration/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
