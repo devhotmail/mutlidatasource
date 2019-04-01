@@ -24,6 +24,7 @@
         <module name="02-tulingvip-springboot-swagger2" />
         <module name="redisoper-spring-boot-autoconfiguration" />
         <module name="redisoper-springboot-starter" />
+        <module name="tuling-open-autoconfig-principle" />
         <module name="tulingvip-springboot-actuator" />
         <module name="tulingvip-springboot-jdbc" />
         <module name="tulingvip-springboot-maven" />
@@ -57,6 +58,7 @@
       <module name="02-tulingvip-springboot-swagger2" target="1.8" />
       <module name="redisoper-spring-boot-autoconfiguration" target="1.8" />
       <module name="redisoper-springboot-starter" target="1.8" />
+      <module name="tuling-open-autoconfig-principle" target="1.8" />
       <module name="tulingvip-springboot" target="1.8" />
       <module name="tulingvip-springboot-actuator" target="1.8" />
       <module name="tulingvip-springboot-jdbc" target="1.8" />

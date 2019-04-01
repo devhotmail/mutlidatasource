@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b9ec4a0-8ea2-4397-b737-7ca700395057" name="Default" comment="" />
+    <list default="true" id="0b9ec4a0-8ea2-4397-b737-7ca700395057" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-tulingvip-springboot-qk02/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/.mvn/wrapper/MavenWrapperDownloader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/02-tuling-open-autoconfig-principle.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/src/main/java/com/tuling/TulingOpenAutoconfigPrincipleApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/src/main/java/com/tuling/compent/TulingBeanDefinitionRegister.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/src/main/java/com/tuling/compent/TulingDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/src/main/java/com/tuling/compent/TulingImportSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/src/main/java/com/tuling/compent/TulingServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/src/main/java/com/tuling/condition/TulingAspect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/src/main/java/com/tuling/condition/TulingConditional.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/src/main/java/com/tuling/condition/TulingLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/src/main/java/com/tuling/config/CondtionConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/src/main/java/com/tuling/config/TulingConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/src/main/resources/beans.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/src/test/java/com/tuling/TulingOpenAutoconfigPrincipleApplicationTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01-tulingvip-springboot-qk02/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/01-tulingvip-springboot-qk02/src/main/resources/application.properties" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/01-tulingvip-springboot-qk02/target/" />
@@ -21,6 +48,7 @@
     <ignored path="$PROJECT_DIR$/02-tulingvip-springboot-swagger2/target/" />
     <ignored path="$PROJECT_DIR$/02-redisoper-springboot-starter/target/" />
     <ignored path="$PROJECT_DIR$/02-redisoper-spring-boot-autoconfiguration/target/" />
+    <ignored path="$PROJECT_DIR$/tuling-open-autoconfig-principle/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,16 +59,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-redisoper-spring-boot-autoconfiguration/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TulingProductor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02-tulingvip-springboot-rabbitmq/src/main/java/com/tuling/producter/TulingProductor.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,63 +81,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152">
-              <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="79">
+              <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TulingConsumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-tulingvip-springboot-rabbitmq/src/main/java/com/tuling/consumer/TulingConsumer.java">
+      <file leaf-file-name="TulingvipSpringbootQk02Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-tulingvip-springboot-qk02/src/main/java/com/tuling/TulingvipSpringbootQk02Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShardedRedisOperClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-redisoper-spring-boot-autoconfiguration/src/main/java/com/redisoper/ShardedRedisOperClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="135">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShardedRedisConfigProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-redisoper-spring-boot-autoconfiguration/src/main/java/com/redisoper/ShardedRedisConfigProperties.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-tulingvip-springboot-qk02/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="81">
+              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisOperAutoConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-redisoper-spring-boot-autoconfiguration/src/main/java/com/redisoper/RedisOperAutoConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-boot-starter-data-redis-2.0.6.RELEASE.pom" pinned="false" current-in-tab="false">
-        <entry file="file://D:/m2/repository/org/springframework/boot/spring-boot-starter-data-redis/2.0.6.RELEASE/spring-boot-starter-data-redis-2.0.6.RELEASE.pom">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-tulingvip-springboot-qk02/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02-tuling-open-autoconfig-principle/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-893">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -128,8 +147,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02-tulingvip-springboot-rabbitmq/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="189">
+              <caret line="7" column="41" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -138,6 +157,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -171,6 +191,9 @@
         <option value="$PROJECT_DIR$/02-redisoper-spring-boot-autoconfiguration/pom.xml" />
         <option value="$PROJECT_DIR$/02-tulingvip-springboot-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/02-tulingvip-springboot-rabbitmq/src/main/java/com/tuling/producter/TulingProductor.java" />
+        <option value="$PROJECT_DIR$/01-tulingvip-springboot-qk02/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/01-tulingvip-springboot-qk02/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/tuling-open-autoconfig-principle/pom.xml" />
       </list>
     </option>
   </component>
@@ -194,32 +217,7 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tulingvip-springboot" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tulingvip-springboot" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1920" />
@@ -256,20 +254,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tulingvip-springboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tulingvip-springboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="01-tulingvip-springboot-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -278,6 +262,12 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/devtools/git/setup/Git/bin/git.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work_space\idea_space\tulingvip-springboot" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -291,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TulingvipSpringbootWebApplication">
+  <component name="RunManager" selected="Application.TulingvipSpringbootQk02Application">
     <configuration default="false" name="TulingvipSpringbootWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -301,6 +291,26 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tuling.TulingvipSpringbootWebApplication" />
       <module name="01-tulingvip-springboot-web" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TulingvipSpringbootQk02Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.tuling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.tuling.TulingvipSpringbootQk02Application" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="01-tulingvip-springboot-qk02" />
       <envs />
       <method />
     </configuration>
@@ -720,19 +730,24 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.TulingvipSpringbootQk02Application" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.TulingvipSpringbootQuickstartApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.TulingvipSpringbootWebApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TulingvipSpringbootQk02Application" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.TulingvipSpringbootWebApplication" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.TulingvipSpringbootQk02Application" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.TulingvipSpringbootWebApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\zhuwei\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -741,20 +756,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554096301123</updated>
-      <workItem from="1554096303631" duration="9445000" />
+      <workItem from="1554096303631" duration="15435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9445000" />
+    <option name="totallyTimeSpent" value="15435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1030" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.50216687" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19880824" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -770,10 +784,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.49783316" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22806068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -951,7 +965,7 @@
         <state relative-caret-position="497">
           <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1001,7 +1015,7 @@
         <state relative-caret-position="27">
           <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1026,14 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
           <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-tulingvip-springboot-rabbitmq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1066,8 +1072,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="79">
+          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-tulingvip-springboot-qk02/src/main/java/com/tuling/TulingvipSpringbootQk02Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-tulingvip-springboot-qk02/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-tulingvip-springboot-qk02/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-tulingvip-springboot-rabbitmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="41" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa19064.44152/SpringbootStartMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-tuling-open-autoconfig-principle/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-893">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>

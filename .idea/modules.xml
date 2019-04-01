@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/01-tulingvipspringbootmaven02/01-tulingvipspringbootmaven02.iml" filepath="$PROJECT_DIR$/01-tulingvipspringbootmaven02/01-tulingvipspringbootmaven02.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-redisoper-spring-boot-autoconfiguration/02-redisoper-spring-boot-autoconfiguration.iml" filepath="$PROJECT_DIR$/02-redisoper-spring-boot-autoconfiguration/02-redisoper-spring-boot-autoconfiguration.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-redisoper-springboot-starter/02-redisoper-springboot-starter.iml" filepath="$PROJECT_DIR$/02-redisoper-springboot-starter/02-redisoper-springboot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-tuling-open-autoconfig-principle/tuling-open-autoconfig-principle.iml" filepath="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/tuling-open-autoconfig-principle.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-tulingvip-springboot-actuator/02-tulingvip-springboot-actuator.iml" filepath="$PROJECT_DIR$/02-tulingvip-springboot-actuator/02-tulingvip-springboot-actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-tulingvip-springboot-jdbc/02-tulingvip-springboot-jdbc.iml" filepath="$PROJECT_DIR$/02-tulingvip-springboot-jdbc/02-tulingvip-springboot-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-tulingvip-springboot-mybatis/02-tulingvip-springboot-mybatis.iml" filepath="$PROJECT_DIR$/02-tulingvip-springboot-mybatis/02-tulingvip-springboot-mybatis.iml" />
