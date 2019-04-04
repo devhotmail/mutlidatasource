@@ -16,12 +16,14 @@
         <module name="01-tulingvipspringbootmaven02" />
         <module name="02-redisoper-spring-boot-autoconfiguration" />
         <module name="02-redisoper-springboot-starter" />
+        <module name="02-tuling-open-autoconfig-principle" />
         <module name="02-tulingvip-springboot-actuator" />
         <module name="02-tulingvip-springboot-jdbc" />
         <module name="02-tulingvip-springboot-mybatis" />
         <module name="02-tulingvip-springboot-rabbitmq" />
         <module name="02-tulingvip-springboot-redis" />
         <module name="02-tulingvip-springboot-swagger2" />
+        <module name="03-tulingvip-springboot-tomcat-stater" />
         <module name="redisoper-spring-boot-autoconfiguration" />
         <module name="redisoper-springboot-starter" />
         <module name="tuling-open-autoconfig-principle" />
@@ -50,12 +52,15 @@
       <module name="01-tulingvipspringbootmaven02" target="1.8" />
       <module name="02-redisoper-spring-boot-autoconfiguration" target="1.8" />
       <module name="02-redisoper-springboot-starter" target="1.8" />
+      <module name="02-tuling-open-autoconfig-principle" target="1.8" />
       <module name="02-tulingvip-springboot-actuator" target="1.8" />
       <module name="02-tulingvip-springboot-jdbc" target="1.8" />
       <module name="02-tulingvip-springboot-mybatis" target="1.8" />
       <module name="02-tulingvip-springboot-rabbitmq" target="1.8" />
       <module name="02-tulingvip-springboot-redis" target="1.8" />
       <module name="02-tulingvip-springboot-swagger2" target="1.8" />
+      <module name="03-tulingvip-springboot-tomcat-stater" target="1.8" />
+      <module name="03-tulingvip-springboot-tomcatstater-principle" target="1.8" />
       <module name="redisoper-spring-boot-autoconfiguration" target="1.8" />
       <module name="redisoper-springboot-starter" target="1.8" />
       <module name="tuling-open-autoconfig-principle" target="1.8" />

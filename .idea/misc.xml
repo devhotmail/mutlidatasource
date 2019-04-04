@@ -25,6 +25,8 @@
         <option value="$PROJECT_DIR$/02-redisoper-springboot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/02-redisoper-spring-boot-autoconfiguration/pom.xml" />
         <option value="$PROJECT_DIR$/tuling-open-autoconfig-principle/pom.xml" />
+        <option value="$PROJECT_DIR$/02-tuling-open-autoconfig-principle/pom.xml" />
+        <option value="$PROJECT_DIR$/03-tulingvip-springboot-tomcat-stater/pom.xml" />
       </list>
     </option>
   </component>
