@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@ImportResource(locations = "classpath:beans.xml")
+//@ImportResource(locations = "classpath:beans.xml")
 @RestController
 public class TulingOpenAutoconfigPrincipleApplication {
 
@@ -27,18 +27,18 @@ public class TulingOpenAutoconfigPrincipleApplication {
 
 	@RequestMapping("/testRedis")
 	public String testRedis() {
-		redisTemplate.opsForValue().set("smlz","123456");
+		redisTemplate.opsForValue().set("smlz1","123456");
 		return "OK";
 	}
 
 
-	@Bean
+/*	@Bean
 	public RedisTemplate<Object, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory)  {
 		RedisTemplate<Object, Object> template = new RedisTemplate<>();
 		template.setDefaultSerializer(new Jackson2JsonRedisSerializer<Object>(Object.class));
 		template.setConnectionFactory(redisConnectionFactory);
 		return template;
-	}
+	}*/
 
 
 

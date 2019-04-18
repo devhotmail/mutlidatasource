@@ -1,18 +1,17 @@
 package com.tuling;
 
-import org.mybatis.spring.annotation.MapperScans;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
+@EnableAspectJAutoProxy
 @EnableTransactionManagement
-@EnableAspectJAutoProxy(exposeProxy = true)
-public class TulingvipSpringbootMybatisApplication {
+public class TulingOpenMultidatasourceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TulingvipSpringbootMybatisApplication.class, args);
+		SpringApplication.run(TulingOpenMultidatasourceApplication.class, args);
 	}
 
 }
