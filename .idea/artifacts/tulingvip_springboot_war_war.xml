@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="tulingvip-springboot-war:war">
-    <output-path>$PROJECT_DIR$/01-tulingvip-springboot-war/target</output-path>
-    <root id="archive" name="tulingPackage4War.war">
-      <element id="artifact" artifact-name="tulingvip-springboot-war:war exploded" />
-    </root>
-  </artifact>
-</component>

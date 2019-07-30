@@ -1,5 +1,6 @@
 package com.tuling.controller;
 
+import com.tuling.bean.Car;
 import com.tuling.bean.DataNode;
 import com.tuling.bean.User;
 import com.tuling.bean.UserCondition;
@@ -80,6 +81,9 @@ public class UserController {
             User user = DataNode.users.get(key);
             if(user.getUserName().equals(userCondition.getUserName()) &&
                     user.getUserId()==userCondition.getUserId()) {
+                Car car = new Car();
+                car.setName("奥迪");
+                user.setCar(car);
                 return user;
             }
         }

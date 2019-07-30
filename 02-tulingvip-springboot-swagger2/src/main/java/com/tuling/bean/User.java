@@ -1,11 +1,26 @@
 package com.tuling.bean;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
  * Created by smlz on 2019/3/24.
  */
+@ApiModel(value = "用户返回结果")
 public class User {
+
+    @JsonIgnore
+    @ApiModelProperty(name = "用户车俩",dataType = "Car" ,notes = "用户车俩")
+    private Car car;
+
+    public Car getCar() {
+        return car;
+    }
+
+    public void setCar(Car car) {
+        this.car = car;
+    }
 
     public User(Integer userId, String userName, String password, String email, String birthDate) {
         this.userId = userId;
@@ -60,6 +75,7 @@ public class User {
 
     @ApiModelProperty(name = "用户名",dataType = "String" ,notes="用户名")
     private String userName;
+    @JsonIgnore
     @ApiModelProperty(name = "密码",dataType = "String",notes = "密码")
     private String password;
     @ApiModelProperty(name = "邮箱",dataType = "String" ,notes = "邮箱")

@@ -55,7 +55,7 @@ public class TulingConfig extends WebMvcConfigurerAdapter {
      * @param registry
      */
     public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/login").setViewName("login.html");
+        registry.addViewController("/login").setViewName("index.html");
     }
 
 }

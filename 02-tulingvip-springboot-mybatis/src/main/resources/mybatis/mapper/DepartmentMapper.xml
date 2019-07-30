@@ -8,7 +8,7 @@
         select * from department where id = #{id}
     </select>
 
-    <select id="list" resultType="com.tuling.bean.Dept">
+    <select id="list"  resultType="com.tuling.bean.Dept">
         select * from department
     </select>
 

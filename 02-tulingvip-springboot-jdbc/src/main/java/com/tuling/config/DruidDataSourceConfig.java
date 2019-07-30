@@ -27,8 +27,8 @@ public class DruidDataSourceConfig {
     @Autowired
     private DruidDataSourceProperties druidDataSourceProperties;
 
-    @Bean
-    public DataSource dataSource() throws SQLException {
+    @Bean(initMethod = "init")
+    public DruidDataSource dataSource() throws SQLException {
         System.out.println(druidDataSourceProperties);
         DruidDataSource druidDataSource = new DruidDataSource();
         druidDataSource.setUsername(druidDataSourceProperties.getUsername());
