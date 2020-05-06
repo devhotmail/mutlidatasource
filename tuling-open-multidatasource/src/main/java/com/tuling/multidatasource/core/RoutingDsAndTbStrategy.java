@@ -16,7 +16,7 @@ public class RoutingDsAndTbStrategy extends AbstractTulingRouting {
     @Override
     public String calDataSourceKey(String routingFiled) throws LoadRoutingStategyUnMatch,RoutingFiledArgsIsNull {
 
-        String dataSourceKey = null;
+        String dataSourceKey;
 
         Integer routingFiledHashCode =  getRoutingFileHashCode(routingFiled);
         //定位库的索引值

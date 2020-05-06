@@ -83,7 +83,6 @@ public class DataSourceConfiguration {
 
         //把多个数据有和多数据源进行关联
         tulingMultiDataSource.setTargetDataSources(targetDataSources);
-
         tulingMultiDataSource.setDefaultTargetDataSource(dataSource00());
 
 

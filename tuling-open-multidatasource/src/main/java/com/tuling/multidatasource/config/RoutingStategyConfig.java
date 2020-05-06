@@ -7,11 +7,8 @@ import com.tuling.multidatasource.core.RoutingTbStategy;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
-
-/**
- * Created by smlz on 2019/4/17.
- */
 @Configuration
 public class RoutingStategyConfig {
 

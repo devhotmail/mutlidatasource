@@ -31,6 +31,9 @@ public class TulingDsRoutingSetProperties  {
 
     /**
      * 所有生产写库数据有的名称
+     * dataSourceKeysMapping 结构:
+     *         setMappings.put(0,"dataSource00");
+     *         setMappings.put(1,"dataSource01");
      */
     private Map<Integer,String> dataSourceKeysMapping;
 

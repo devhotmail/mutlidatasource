@@ -12,15 +12,17 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/order")
+
 public class OrderController {
 
     @Autowired
     private OrderServiceImpl orderService;
 
+//    @Router
     @RequestMapping("/save")
-    @Router
     public Order insertOrder(Order order) {
         orderService.insertOrder(order);
+        System.out.printf("");
         return order;
     }
 }

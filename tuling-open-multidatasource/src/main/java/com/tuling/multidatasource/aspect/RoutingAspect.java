@@ -17,11 +17,16 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+
+import org.apache.log4j.Logger;
+
+
 
 /**
  * 拦截切面组件
@@ -31,6 +36,7 @@ import java.lang.reflect.Method;
 @Aspect
 @Slf4j
 public class RoutingAspect {
+    private static Logger log = Logger.getLogger(RoutingAspect.class.getName());
 
     @Autowired
     private ITulingRouting routing;
@@ -47,10 +53,10 @@ public class RoutingAspect {
 
         //获取方法指定的注解
         Router router = method.getAnnotation(Router.class);
-        //获取指定的路由key
+        //获取指定的路由key --orderId
         String routingFiled = router.routingFiled();
 
-        //获取方法入参
+        //获取方法入参  --userId, money,orderId
         Object[] args = joinPoint.getArgs();
 
 
@@ -62,7 +68,8 @@ public class RoutingAspect {
                 if(!StringUtils.isEmpty(routingFieldValue)) {
                     String dbKey = routing.calDataSourceKey(routingFieldValue);
                     String tableIndex = routing.calTableKey(routingFieldValue);
-                    log.info("选择的Dbkey是:{},tableKey是:{}",dbKey,tableIndex);
+//                    System.out.printf("");
+//                    log.info("选择的Dbkey是:{},tableKey是:{}",dbKey,tableIndex);
                     havingRoutingField = true;
                     break;
                 }else {
@@ -72,7 +79,7 @@ public class RoutingAspect {
 
             //判断入参中没有路由字段
             if(!havingRoutingField) {
-                log.warn("入参{}中没有包含路由字段:{}",args,routingFiled);
+//                log.warn("入参{}中没有包含路由字段:{}",args,routingFiled);
                 throw new ParamsNotContainsRoutingField(MultiDsErrorEnum.PARAMS_NOT_CONTAINS_ROUTINGFIELD);
             }
         }

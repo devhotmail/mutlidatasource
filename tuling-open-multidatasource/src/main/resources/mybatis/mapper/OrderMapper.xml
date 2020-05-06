@@ -6,6 +6,10 @@
 
 
     <insert id="insertOrder" parameterType="com.tuling.busi.bean.Order">
-        insert into order${tableSuffix}(order_id,user_id,money) values(#{orderId},#{userId},#{money})
+       insert into order${tableSuffix}(order_id,user_id,money) values(#{orderId},#{userId},#{money})
     </insert>
+
+   <!-- <insert id="insertOrder" parameterType="com.tuling.busi.bean.Order">
+       insert into order${tableSuffix}(order_id,user_id,money) values(#{orderId},#{userId},#{money})
+    </insert>-->
 </mapper>

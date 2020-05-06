@@ -22,7 +22,7 @@ public class TulingOpenMultidatasourceApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		System.out.println(tulingRouting.calDataSourceKey("123456"));
+		System.out.println(tulingRouting.calDataSourceKey("password"));
 	}
 
 

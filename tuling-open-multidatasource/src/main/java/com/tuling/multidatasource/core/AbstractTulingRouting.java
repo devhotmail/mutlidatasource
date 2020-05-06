@@ -55,6 +55,7 @@ public abstract class AbstractTulingRouting implements ITulingRouting ,Initializ
      * 工程在启动的时候 检查配置路由参数和 策略是否相匹配
      * @throws Exception
      */
+    @Override
     public void afterPropertiesSet() throws LoadRoutingStategyUnMatch{
 
         switch (getTulingDsRoutingSetProperties().getRoutingStategy()) {
